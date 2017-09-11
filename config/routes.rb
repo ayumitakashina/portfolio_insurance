@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'musictitles/index'
+  root 'overallconfigs#index'  
 
+  get 'musictitles/index'
+  
   get 'musictitles/show'
 
   get 'albumnames/index'
